@@ -23,10 +23,10 @@ const starts = async (dha = new WAConnection()) => {
 		width: 80,
 		whitespaceBreak: false
 	}), 'cyan'))
-	console.log(color('[ GO 1K SUBSCRIBE ]\n', 'yellow'), color('Subscribe Herman Chanel', 'yellow'))
+	console.log(color('[ GO 1K SUBSCRIBE ]\n', 'yellow'), color('Subscribe Aril Store', 'yellow'))
 	console.log(color('GA SUBSCRIBE BAKAL EROR:V', 'pink'))
-	console.log(color('\n\n[ FOLOW IG @cal_me_herman', 'red'))
-	dha.browserDescription = ["herman", "Chrome", "3.0.0"];
+	console.log(color('\n\n[ FOLOW IG @aril_bae05', 'red'))
+	dha.browserDescription = ["ARILGNZ", "Chrome", "3.0.0"];
 
 	// Menunggu QR
 	dha.on('qr', () => {
@@ -36,7 +36,7 @@ const starts = async (dha = new WAConnection()) => {
 	// Menghubungkan
 	fs.existsSync(`./${setting.sessionName}.json`) && dha.loadAuthInfo(`./${setting.sessionName}.json`)
 	dha.on('connecting', () => {
-		console.log(color('[ Herman Chanel ]', 'yellow'), color('PROSES NYAMBUNG...'));
+		console.log(color('[ Aril Chanel ]', 'yellow'), color('PROSES NYAMBUNG...'));
 	})
 const spinner = { 
   "interval": 120,
